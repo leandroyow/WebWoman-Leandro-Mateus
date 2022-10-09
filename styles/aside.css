@@ -1,0 +1,24 @@
+aside {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    height: 367px;
+    padding: 0 2rem ;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (min-width: 900px) {
+    aside {
+        width: 450px;   
+        
+    }
+}

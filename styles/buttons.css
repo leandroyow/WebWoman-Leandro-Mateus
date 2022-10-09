@@ -1,0 +1,20 @@
+.btn_card--subscribe {
+    width: 280px;
+}
+
+button {
+    width: 240px;
+    font-size: var(--title-5);
+    background-color: var(--color-brand-1);
+    color: var(--color-grey-6);
+    font-size: var(--text-2);
+    line-height: 24px;
+    padding: 7px;
+    font-weight: 500;
+    border: 2px;
+    border-radius: var(--radius-default);
+}
+
+button:hover {
+    background-color: var(--color-brand-2);
+}

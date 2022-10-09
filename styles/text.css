@@ -1,0 +1,80 @@
+h1 {
+    color: var(--color-grey-6);
+    font-size: var(--title-3);
+    font-weight: 600;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: var(--title-3);
+    line-height: var(--title-1);
+    color: var(--color-grey-6);
+}
+
+h3 {
+    margin-top: 2rem;
+    color: var(--color-grey-1);
+    font-weight: 600;
+    font-size: var(--title-4);
+    line-height: 33px;
+}
+
+h4 {
+    color: var(--color-grey-1);
+    font-weight: 600;
+    font-size: var(--title-4);
+    line-height: 33px;
+}
+
+.mainVagas {
+    margin-top: 2rem;
+}
+
+h5 {
+    color: var(--color-grey-1);
+    font-weight: 600;
+    font-size: var(--text-1);
+    line-height: 27px;
+}
+
+span {
+    color: var(--color-grey-2);
+    font-size: var(--text-3);
+    font-weight: 400;
+}
+
+.p_Description {
+    color: var(--color-grey-6);
+    font-size: var(--text-1);
+    font-weight: 400;
+    line-height: 27px;
+}
+
+header span {
+    font-weight: 600;
+    color: var(--color-grey-6);
+    font-size: var(--text-2);
+    line-height: var(--title-3);
+}
+
+.card p {
+    color: var(--color-grey-2);
+    font-weight: 400;
+    font-size: var(--text-2);
+    line-height: var(--title-3);
+
+}
+
+.div_card--footer span {
+    padding: 5px;
+    background-color: var(--color-grey-3);
+    width: max-content;
+    border-radius: var(--radius-default);
+}
+
+@media (min-width: 900px) {
+    .mainVagas {
+        width: fit-content;
+    }
+    
+}
